@@ -45,7 +45,7 @@ Este bot responde a comandos enviados no Discord, chamando APIs externas e retor
 
 ---
 
-### 3. Comandos Disponíveis e APIs Utilizadas
+### 3. Comandos Disponíveis e APIs Utilizadas com Exemplos.
 
 | Comando                   | Descrição                                                | API Utilizada               |
 |---------------------------|---------------------------------------------------------|------------------------------|
@@ -54,6 +54,16 @@ Este bot responde a comandos enviados no Discord, chamando APIs externas e retor
 | `!get_cep <cep>`         | Exibe informações de endereço para um CEP informado     | OpenCEP API                 |
 | `!get_random_fact`       | Busca um fato aleatório                                  | Useless Facts API           |
 | `!get_repos <username>`   | Lista repositórios públicos de um usuário no GitHub    | GitHub API                  |
+
+
+| API                        | Exemplo                        |
+|------------------------------|-------------------------------|
+| Dog CEO API                 | `!get_dog_image`              |
+| Chuck Norris API            | `!get_joke`                   |
+| OpenCEP API                 | `!get_cep 01001-000`          |
+| Useless Facts API           | `!get_random_fact`            |
+| GitHub API                  | `!get_repos octocat`          |
+
 
   #### 1. Dog CEO API
 - **Função**: Retorna imagens aleatórias de cachorros.
